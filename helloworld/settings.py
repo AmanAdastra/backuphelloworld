@@ -25,7 +25,8 @@ SECRET_KEY = os.getenv('SECRET_KEY', '*t8f^9wfx4v9et^#t^+7mvq8oar7n!m=c9)xob3zj_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['stark-citadel-84878.herokuapp.com', '127.0.0.1']
+
 
 
 # Application definition
